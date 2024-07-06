@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is Naim 👋</title>
+    <!-- ===== CSS Files ====== -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/skins/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- ===== Style Switcher ===== -->
+    <link rel="stylesheet" href="./css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="./css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="./css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="./css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="./css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="./css/style-switcher.css">
+</head>
+<body>
+    <!-- ===== Main Container Start ===== -->
+    <div class="main-container">
+        <!-- ===== Aside Start ===== --> 
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>A</span>buNaim</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home </a></li>
+                <li><a href="#about"><i class="fa fa-user"></i> About </a></li>
+                <li><a href="#services"><i class="fa fa-list"></i> Service </a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio </a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i> Contact </a></li>
+            </ul>
+        </div>
+        <!-- ===== Aside End ===== --> 
+        <!-- ===== Main Content Start -->
+        <div class="main-content">
+            <!-- ===== Home Section Start ===== -->
+            <section class="home active section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, my name is <span class="name">Abu Naim</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">Software Engineer</span></h3>
+                            <p>I'm a dedicated backend developer specializing in Django, with expertise in HTML, CSS, JavaScript, and frontend libraries like Tailwind and Bootstrap. Currently, I'm expanding my knowledge by learning React. I have a strong passion for coding and constantly strive to improve my skills. In my free time, I enjoy exploring new technologies and working on personal projects. While I primarily work with Django, I also have a passion for working with the front-end technologies like JavaScript and ReactJS. I love solving real-life problems with my knowledge and always keep an end goal in mind in my professional endeavors.</p>
+                            <a onclick="resumeDownload()" href="#" class="btn">Download Resume</a>
+                        </div>
+                        <div class="home-image padd-15">
+                            <img  src="./images/profilePicture2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ===== Home Section End ===== -->
+            <!-- ===== About Section Start ===== -->
+            <section class="about section " id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'm Abu Naim and <span>Software Engineer</span></h3>
+                                    <p>I'm a dedicated backend developer specializing in Django, with expertise in HTML, CSS, JavaScript, and frontend libraries like Tailwind and Bootstrap. Currently, I'm expanding my knowledge by learning React. I have a strong passion for coding and constantly strive to improve my skills. In my free time, I enjoy exploring new technologies and working on personal projects. While I primarily work with Django, I also have a passion for working with the front-end technologies like JavaScript and ReactJS. I love solving real-life problems with my knowledge and always keep an end goal in mind in my professional endeavors.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Birthday: <span>24 March 2001</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>GitHub: <span><a href="https://github.com/abunaim1">abunaim1</a></span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree: <span>Bachelor, CSE</span></p>
+                                        </div>         
+                                        <div class="info-item padd-15">
+                                            <p>LinkedIn: <span><a href="https://www.linkedin.com/in/abunaim1">abunaim1</a></span></p>
+                                        </div>                              
+                                        <div class="info-item padd-15">
+                                            <p>Location: <span>Dhaka, Bangladesh 🇧🇩</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email: <span>aabunnaim@gmail.com</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
+                                        </div>
+                                    </div>
+                                </div>                                
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>Django</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 83%;"></div>
+                                                <div class="skill-percent">83%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Python</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 88%;"></div>
+                                                <div class="skill-percent">88%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 81%;"></div>
+                                                <div class="skill-percent">81%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>C++</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 78%;"></div>
+                                                <div class="skill-percent">78%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 96%;"></div>
+                                                <div class="skill-percent">96%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Bootstrap5</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 93%;"></div>
+                                                <div class="skill-percent">93%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Tailwind CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 91%;"></div>
+                                                <div class="skill-percent">91%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- ====== Timeline Item ===== -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2021 - Present
+                                                    </h3>
+                                                    <h4 class="timeline-title">Bachelor in Computer Science and Engineering</h4>
+                                                    <p class="timeline-text">Currently studying at United International University, Bangladesh, with a focus on software development and machine learning with Python.</p>
+                                                </div>
+
+                                                <!-- ====== Timeline Item ===== -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2018 - 2020
+                                                    </h3>
+                                                    <h4 class="timeline-title">Higher Secondary Certificate (HSC)</h4>
+                                                    <p class="timeline-text">Graduated with a GPA of 5.00 from Dhaka Residential Model School and College.</p>
+                                                </div>
+                                                
+                                                <!-- ====== Timeline Item ===== -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2017 - 2018
+                                                    </h3>
+                                                    <h4 class="timeline-title">Secondary School Certificate (SSC)</h4>
+                                                    <p class="timeline-text">Graduated with a GPA of 5.00.</p>
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <!-- <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                ====== Timeline Item =====
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2024 - Present
+                                                    </h3>
+                                                    <h4 class="timeline-title">Phitron</h4>
+                                                    <p class="timeline-text">Currently working with the Phitron Job Placement Team. It is a great experience to work with them.</p>
+                                                </div>                                               
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ===== About Section End ===== -->
+            <!-- ===== Service Section Start ===== -->
+            <section class="service section " id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- ===== Service item Start -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Custom Web Application Development</h4>
+                                <p>Building tailored web applications using Django that meet specific business requirements.</p>
+                            </div>
+                        </div>
+                        <!-- ===== Service item End -->
+
+                        <!-- ===== Service item Start -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>API Development and Integration</h4>
+                                <p>Creating RESTful APIs with Django REST Framework and also Integrating third-party APIs into existing applications.</p>
+                            </div>
+                        </div>
+                        <!-- ===== Service item End -->
+                        
+                        <!-- ===== Service item Start -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-database"></i>
+                                </div>
+                                <h4>Database Design and Management</h4>
+                                <p>Designing and optimizing relational databases with PostgreSQL, MySQL, or SQLite.</p>
+                            </div>
+                        </div>
+                        <!-- ===== Service item End -->
+
+                        <!-- ===== Service item Start -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Maintenance and Support</h4>
+                                <p>Providing ongoing maintenance and support for Django applications. Bug fixing, performance optimization, and feature enhancements.</p>
+                            </div>
+                        </div>
+                        <!-- ===== Service item End -->
+
+                        <!-- ===== Service item Start -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>User Authentication and Authorization</h4>
+                                <p>Implementing secure user authentication systems with Django's built-in authentication framework.</p>
+                            </div>
+                        </div>
+                        <!-- ===== Service item End -->
+
+                        <!-- ===== Service item Start -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bullhorn"></i>
+                                </div>
+                                <h4>Real-time Applications</h4>
+                                <p>Developing real-time applications using Django Channels for WebSockets support.</p>
+                            </div>
+                        </div>
+                        <!-- ===== Service item End -->
+                    </div>
+                </div>
+            </section>
+            <!-- ===== Service Section End ===== -->
+
+            <!-- ===== Portfolio Section Start ===== -->
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My Last Projects :</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                         <!-- ===== portfolio item1 start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="./images/portfolio1.png" alt="">
+                                    <div class="portfolio-icons">
+                                        <a href="https://github.com/abunaim1/RecipeHub_backend" class="icon-link" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="https://recipehubbynaim.netlify.app/" class="icon-link" target="_blank">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ===== portfolio item1 end-->
+
+                         <!-- ===== portfolio item2 start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="./images/portfolio2.png" alt="">
+                                    <div class="portfolio-icons">
+                                        <a href="https://github.com/abunaim1/" class="icon-link" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="https://quizzonebyabunaim.netlify.app/" class="icon-link" target="_blank">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ===== portfolio item2 end-->
+
+                         <!-- ===== portfolio item3 start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="./images/portfolio3.png" alt="">
+                                    <div class="portfolio-icons">
+                                        <a href="https://github.com/abunaim1/art_gallery" class="icon-link" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="https://art-gallary-by-naim.netlify.app/" class="icon-link" target="_blank">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ===== portfolio item3 end-->
+
+                         <!-- ===== portfolio item4 start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="./images/portfolio4.png" alt="">
+                                    <div class="portfolio-icons">
+                                        <a href="https://github.com/abunaim1/haspital_management_backend" class="icon-link" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="https://hospital-management-by-naim.netlify.app/" class="icon-link" target="_blank">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ===== portfolio item4 end-->
+
+                         <!-- ===== portfolio item5 start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="./images/portfolio5.png" alt="">
+                                    <div class="portfolio-icons">
+                                        <a href="https://github.com/abunaim1/django-task" class="icon-link" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="https://main--khanapinabynaim.netlify.app/" class="icon-link" target="_blank">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ===== portfolio item5 end-->
+
+                        <!-- ===== portfolio item6 start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="./images/portfolio6.png" alt="">
+                                    <div class="portfolio-icons">
+                                        <a href="https://github.com/abunaim1/musician_directory_django" class="icon-link" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="https://ph-tube-by-naim.netlify.app/" class="icon-link" target="_blank">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ===== portfolio item6 end-->
+
+                        <!-- ===== portfolio item7 start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="./images/portfolio8.png" alt="">
+                                    <div class="portfolio-icons">
+                                        <a href="https://github.com/abunaim1/convention-center" class="icon-link" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="https://abunaim1.github.io/convention-center/" class="icon-link" target="_blank">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ===== portfolio item7 end-->
+                    </div>
+                </div>
+            </section>
+            <!-- ===== Portfolio Section End ===== -->
+
+            <!-- ===== Contact Section Start ===== -->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Let's Talk</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Feel free to reach out with any questions</h3>
+                    <h4 class="contact-sub-title padd-15">YOUR NEXT PROJECT STARTS HERE!</h4>
+                    <div class="row">
+                        <!-- ===== Contact Info Item Start Here ===== -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call Me On</h4>
+                            <p>+088 17415-01656</p>
+                        </div>
+                        <!-- ===== Contact Info Item End ===== -->
+
+                        <!-- ===== Contact Info Item Start Here ===== -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Address</h4>
+                            <p>Gulshan, Dhaka, Bangladesh</p>
+                        </div>
+                        <!-- ===== Contact Info Item End ===== -->
+
+                        <!-- ===== Contact Info Item Start Here ===== -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>aabunnaim@gmail.com</p>
+                        </div>
+                        <!-- ===== Contact Info Item End ===== -->
+
+                        <!-- ===== Contact Info Item Start Here ===== -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p>https://abunaim.netlify.app</p>
+                        </div>
+                        <!-- ===== Contact Info Item End ===== -->
+                    </div>
+                    <h3 class="contact-title padd-15">Contact me directly via email for more information</h3>
+                    <h4 class="contact-sub-title padd-15">I'AM VERY RESPONSE TO MESSAGES</h4>
+                    
+                    <!-- ====== Contact Form ======= -->
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                          <div class="row">
+                            <div class="form-item col-6 padd-15">
+                              <div class="form-group">
+                                <input type="text" id="name" class="form-control" placeholder="Name">
+                              </div>
+                            </div>
+                            <div class="form-item col-6 padd-15">
+                              <div class="form-group">
+                                <input type="email" id="email" class="form-control" placeholder="Email">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="form-item col-12 padd-15">
+                              <div class="form-group">
+                                <input type="text" id="subject" class="form-control" placeholder="Subject">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="form-item col-12 padd-15">
+                              <div class="form-group">
+                                <textarea id="message" class="form-control" placeholder="Message"></textarea>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="form-item col-12 padd-15">
+                              <button type="button" class="btn" onclick="sendEmail(event)">Send Message</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>                      
+                </div>
+            </section>
+            <!-- ===== Contact Section End ===== -->
+        </div>
+        <!-- ===== Main Content End -->
+    </div>
+    <!-- ===== Main Container End ===== -->
+
+    <!-- ===== Style Switcher Start ===== -->
+    <div class="style-switcher">
+         <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+         </div>
+         <div class="day-night s-icon">
+            <i class="fas "></i>
+         </div>
+         <h4>Available Theme</h4>
+         <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+         </div>
+    </div>
+    <!-- ===== Style Switcher End ===== -->
+
+    <!-- ===== JS Files ===== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/style-switcher.js"></script>
+</body>
+</html>
+
+
+
+<!-- 
+
+I’d love to hear from you!
+Feel free to reach out with any questions or opportunities.
+Let’s work together.
+I'm here to help with your projects.
+Contact me for collaboration and inquiries.
+Let’s create something amazing together.
+Interested in working with me? Get in touch!
+Your next project starts here.
+Let's discuss your ideas and projects.
+Ready to start a conversation? 
+
+-->
+
+
+
+
+
